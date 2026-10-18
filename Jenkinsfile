@@ -9,7 +9,7 @@ pipeline {
         }
         stage('run python code') {
             steps {
-                sh "python extract.py"
+                sh "python3 extract.py"
             }
         }
     }
